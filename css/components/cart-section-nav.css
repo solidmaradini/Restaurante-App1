@@ -1,0 +1,39 @@
+.cart-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 1em 0.7em 1em;
+}
+
+.cart-nav__back {
+  width: 25px;
+  height: 25px;
+  background-color: #E5E2E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cart-nav__clear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  border-radius: 50%;
+  overflow: visible;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.cart-nav__clear:hover {
+  background-color: #ff6c4d;
+}
+
+.cart-nav__back svg {
+  transform: translate(-25%, 0%);
+}
+
+.cart-nav__back:hover {
+  background-color: #ff6c4d;
+}

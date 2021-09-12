@@ -1,0 +1,21 @@
+.ask-name {
+  width: 70%;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.ask-name input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(0, 0, 0, 0.035);
+  color: rgb(0, 0, 0, 0.4);
+}
+
+.ask-name input:focus {
+  outline: none;
+  border: 1px solid rgb(0, 0, 0, 0.4);
+}

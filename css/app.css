@@ -1,0 +1,53 @@
+@import url("./components/main-section-header.css");
+@import url("./components/main-section-main.css");
+@import url("./components/main-section-nav.css");
+@import url("./components/cart-section-nav.css");
+@import url("./components/cart-section-main.css");
+@import url("./components/cart-section-summary.css");
+@import url("./components/popup.css");
+@import url("./components/ask-name.css");
+
+/* GENERAL DESPOSITION */
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.general-container {
+  width: 100vw;
+  background-color: #fb6e3a;
+  background-image: linear-gradient(to right bottom, #fd8870, #ff7a5f, #ff6c4d, #ff5d3b, #ff4c27);
+}
+
+.main-page {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  margin: auto;
+  height: 100vh;
+  box-shadow: 0px 0px 100px 20px rgba(184, 6, 6, 0.2);
+}
+
+body {
+  overflow: hidden;
+  top: 0;
+}
+
+.cart-page {
+  background-color: #FAFAFA;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .cart-page {
+    width: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
